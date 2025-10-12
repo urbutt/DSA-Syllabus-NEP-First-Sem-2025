@@ -1,5 +1,3 @@
-package Unit1.Array;
-
 // Array : An Array is a Linear data structure 
 // It is a collection of elements of same type 
 // stored in contiguous memory locations.

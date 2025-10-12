@@ -1,5 +1,3 @@
-package Unit1.Array;
-
 public class linearSearch {
     public static void main(String[] args) {
         // Array Initialized
