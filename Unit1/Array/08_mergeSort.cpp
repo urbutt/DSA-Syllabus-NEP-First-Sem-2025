@@ -36,14 +36,6 @@ public:
         cout << endl;
     }
 
-    // swap function
-    void swap(int a, int b)
-    {
-        int temp = arr[a];
-        arr[a] = arr[b];
-        arr[b] = temp;
-    }
-
     // Merges two already sorted subarrays into a single sorted array
     void merge(int low, int mid, int high)
     {

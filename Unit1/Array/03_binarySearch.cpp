@@ -87,7 +87,7 @@ int main()
     cout << "Enter the element to search : ";
     cin >> target;
 
-    // Perform linear search by calling its function
+    // calls binary search function
     int index = bs.binarySearch(target);
 
     // Display search result

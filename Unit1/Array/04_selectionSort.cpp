@@ -74,7 +74,7 @@ int main()
     cout << "Array Elements before sorting : \n";
     sort.display();
 
-    // Perform linear search by calling its function
+    // calls selection sort function
     sort.selectionSort();
 
     cout << "Array Elements after sorting : \n";

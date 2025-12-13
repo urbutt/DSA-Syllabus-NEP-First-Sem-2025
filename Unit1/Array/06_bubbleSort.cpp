@@ -1,6 +1,7 @@
-// Insertion Sort :A simple sorting algorithm
-// Builds the final sorted array one item at a time, with each iteration
-// inserting the current element into its correct position
+// Bubble Sort:
+// Repeatedly compares adjacent elements and swaps them
+// if they are in the wrong order, pushing larger elements
+// to the end with each pass.
 
 #include <iostream>
 #include <vector>
@@ -37,22 +38,21 @@ public:
         cout << endl;
     }
 
-    // Performing Insertion sort
-    void InsertionSort()
+    // Performing Bubble sort 
+    void bubbleSort()
     {
-        for (int i = 1; i < size; i++)
+        for (int i = 0; i < size - 1; i++) // number of passes
         {
-            int temp = arr[i];
-            int j = i - 1;
-            // shift larger elements one position to the right
-            while (j >= 0 && temp < arr[j])
+            // compare adjacent elements and swap if in wrong order
+            for (int j = 0; j < size - i - 1; j++)
             {
-
-                arr[j + 1] = arr[j];
-                j--;
+                if (arr[j] > arr[j + 1])
+                {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
             }
-            // place element at its correct position
-            arr[j + 1] = temp;
         }
     }
 };
@@ -71,8 +71,8 @@ int main()
     cout << "Array Elements before sorting : \n";
     sort.display();
 
-    // calls Insertion sort function
-    sort.InsertionSort();
+    // calls bubble sort function
+    sort.bubbleSort();
 
     cout << "Array Elements after sorting : \n";
     sort.display();
