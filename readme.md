@@ -3,4 +3,5 @@
 **Course Title :** Data Structures and Algorithms  
 **Course Code :** MMCADAD125  
 **Credits :** 04  
-**Total Marks:** 100
+**Total Marks:** 100  
+**Syllabus :** PG Department of Computer Sciences, University of Kashmir

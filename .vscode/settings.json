@@ -2,6 +2,14 @@
     "files.associations": {
         "*.dbclient-js": "javascript",
         "*.embeddedhtml": "html",
-        "stdio.h": "c"
-    }
+        "algorithm": "cpp",
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "iostream": "cpp"
+    },
+    "cSpell.words": [
+        "bankaccount",
+        "callbyvalue"
+    ]
 }
