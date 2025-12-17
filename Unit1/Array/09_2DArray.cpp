@@ -26,11 +26,11 @@ int main()
 
     // Displaying array
     cout << "\nArray elements are :\n";
-    for (int i = 0; i < 2; i++) // loop through row
+    for (int i = 0; i < rows; i++) // loop through row
     {
-        for (int j = 0; j < 3; j++) // loop through column
+        for (int j = 0; j < columns; j++) // loop through column
         {
-            cout << matrix[i][j] << " "; // rows, column are accessed via matrix[row][column]
+            cout << matrix[i][j] << "\t"; // rows, column are accessed via matrix[row][column]
         }
         cout << endl;
     }

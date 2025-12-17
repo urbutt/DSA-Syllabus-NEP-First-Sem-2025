@@ -39,7 +39,7 @@ int main()
     }
 
     // Input matrix 2 elements
-    cout << "Enter matrix 2 elements\n";
+    cout << "\nEnter matrix 2 elements\n";
     for (int i = 0; i < r2; i++)
     {
         for (int j = 0; j < c2; j++)
@@ -61,7 +61,7 @@ int main()
             {
                 sum += a[i][k] * b[k][j];
             }
-            cout << sum << " ";
+            cout << sum << "\t";
         }
         cout << endl;
     }

@@ -50,7 +50,7 @@ int main()
     {
         for (int j = 0; j < c1; j++)
         {
-            cout << a[i][j] + b[i][j] << " ";
+            cout << a[i][j] + b[i][j] << "\t";
         }
         cout << endl;
     }
@@ -60,7 +60,7 @@ int main()
     {
         for (int j = 0; j < c1; j++)
         {
-            cout << a[i][j] - b[i][j] << " ";
+            cout << a[i][j] - b[i][j] << "\t";
         }
         cout << endl;
     }

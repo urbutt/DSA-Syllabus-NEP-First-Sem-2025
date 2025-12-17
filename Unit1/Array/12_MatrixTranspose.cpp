@@ -25,7 +25,7 @@ int main()
     {
         for (int j = 0; j < columns; j++)
         {
-            cout << matrix[i][j] << " ";
+            cout << matrix[i][j] << "\t";
         }
         cout << endl;
     }
@@ -44,7 +44,7 @@ int main()
     {
         for (int j = 0; j < rows; j++)
         {
-            cout << TMatrix[i][j] << " ";
+            cout << TMatrix[i][j] << "\t";
         }
         cout << endl;
     }
