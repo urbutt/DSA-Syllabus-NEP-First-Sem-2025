@@ -1,5 +1,5 @@
 // The transpose of a matrix is obtained by converting its
-//  rows into columns and columns into rows.
+// rows into columns and columns into rows.
 // If the original matrix is A[i][j] as m * n  then
 // the transpose matrix is A[j][i] as n*m.
 
