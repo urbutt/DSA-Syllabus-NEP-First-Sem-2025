@@ -1,0 +1,133 @@
+
+Source : https://www.cuemath.com/algebra/types-of-matrices/
+
+TYPES AND SPECIAL MATRICES 
+
+1. Row Matrix
+- A matrix with only one row.
+- Example: [ 1  2  3  4 ]
+
+2. Column Matrix
+- A matrix with only one column.
+- Example:
+  [ 5 ]
+  [ 7 ]
+  [ 9 ]
+
+3. Rectangular Matrix
+- Number of rows ≠ number of columns.
+- Example:
+  [ 1  2  3 ]
+  [ 4  5  6 ]
+
+4. Square Matrix
+- Number of rows = number of columns.
+- Example:
+  [ 1  2 ]
+  [ 3  4 ]
+
+5. Zero (Null) Matrix
+- All elements are zero.
+- Example:
+  [ 0  0 ]
+  [ 0  0 ]
+
+6. Identity Matrix
+- Square matrix with 1s on the main diagonal and 0s elsewhere.
+- Example:
+  [ 1  0  0 ]
+  [ 0  1  0 ]
+  [ 0  0  1 ]
+
+7. Diagonal Matrix
+- Square matrix where all non-diagonal elements are zero.
+- Example:
+  [ 2  0  0 ]
+  [ 0  5  0 ]
+  [ 0  0  7 ]
+
+8. Scalar Matrix
+- Diagonal matrix with all diagonal elements equal.
+- Example:
+  [ 3  0  0 ]
+  [ 0  3  0 ]
+  [ 0  0  3 ]
+
+9. Upper Triangular Matrix
+- All elements below the main diagonal are zero.
+- Example:
+  [ 1  2  3 ]
+  [ 0  4  5 ]
+  [ 0  0  6 ]
+
+10. Lower Triangular Matrix
+- All elements above the main diagonal are zero.
+- Example:
+  [ 1  0  0 ]
+  [ 2  3  0 ]
+  [ 4  5  6 ]
+
+11. Symmetric Matrix
+- A square matrix equal to its transpose (A = Aᵀ).
+- Example:
+  [ 1  2  3 ]
+  [ 2  4  5 ]
+  [ 3  5  6 ]
+
+12. Skew-Symmetric Matrix
+- Aᵀ = −A and diagonal elements are zero.
+- Example:
+  [  0  2 -1 ]
+  [ -2  0  4 ]
+  [  1 -4  0 ]
+
+13. Singular Matrix
+- Determinant equals zero.
+- Example:
+  [ 1  2 ]
+  [ 2  4 ]
+
+14. Non-Singular Matrix
+- Determinant is not zero.
+- Example:
+  [ 1  2 ]
+  [ 3  4 ]
+
+15. Orthogonal Matrix
+- A × Aᵀ = I.
+- Example:
+  [ 0  1 ]
+  [ 1  0 ]
+
+16. Hermitian Matrix
+- Equal to its conjugate transpose.
+- Example:
+  [ 2   3+i ]
+  [ 3−i  5 ]
+
+17. Skew-Hermitian Matrix
+- Negative of its conjugate transpose.
+- Example:
+  [ 0    2+i ]
+  [ -2+i  0 ]
+
+
+- Special Matrices : 
+
+18. Idempotent Matrix
+- A² = A.
+- Example:
+  [ 1  0 ]
+  [ 0  0 ]
+
+19. Involutory Matrix
+- A² = I.
+- Example:
+  [ 0  1 ]
+  [ 1  0 ]
+
+20. Nilpotent Matrix
+- Aᵏ = 0 for some positive integer k.
+- Example:
+  [ 0  1 ]
+  [ 0  0 ]
