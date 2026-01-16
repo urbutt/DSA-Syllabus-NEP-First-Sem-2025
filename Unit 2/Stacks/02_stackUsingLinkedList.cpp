@@ -9,7 +9,7 @@ Now Implementing stack using linked list :
 #include <iostream>
 using namespace std;
 
-// creating a node , each stack element in stored in each node
+// creating a node , each stack element is stored in each node
 struct Node
 {
     int data;
